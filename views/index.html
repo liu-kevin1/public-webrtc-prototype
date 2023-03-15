@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+</head>
+
+<!--   <style src="style.css"></style> -->
+<link rel="stylesheet" href="style.css">
+<script src="lib/peerjs.js"></script>
+<script src="client.js" type="module"></script>
+
+<body>
+  <!--     <video class="remote-video1" autoplay></video>
+    <video class="remote-video2" autoplay></video>
+    <video class="remote-video3" autoplay></video> -->
+  <input type="text" id="connectID" />
+  <button id="sendConnectionRequest" class="button connectButton" onclick="createPeerConnection()">
+    Connect
+  </button>
+  <br>
+  <br>
+  <div class="messages-body"></div>
+  <br>
+  <div id="main"></div>
+  <br>
+</body>
+
+</html>
